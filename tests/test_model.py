@@ -3,9 +3,9 @@ sys.path.append("..")
 
 import torch
 
-from utils import img2array
+from ramtorch.utils import img2array
 from torch.autograd import Variable
-from model import RecurrentAttention
+from ramtorch.model import RecurrentAttention
 
 # params
 plot_dir = '../plots/'

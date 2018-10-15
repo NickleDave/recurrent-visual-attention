@@ -3,12 +3,11 @@ sys.path.append("..")
 
 import torch
 from torch.autograd import Variable
-from torch.distributions import Normal
 
-from utils import img2array
-from modules import baseline_network
-from modules import glimpse_network, core_network
-from modules import action_network, location_network
+from ramtorch.utils import img2array
+from ramtorch.modules import baseline_network
+from ramtorch.modules import glimpse_network, core_network
+from ramtorch.modules import action_network, location_network
 
 # params
 plot_dir = '../plots/'

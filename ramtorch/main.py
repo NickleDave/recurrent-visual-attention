@@ -1,9 +1,9 @@
 import torch
 
-from trainer import Trainer
-from config import get_config
-from utils import prepare_dirs, save_config
-from data_loader import get_test_loader, get_train_valid_loader
+from ramtorch.trainer import Trainer
+from ramtorch.config import get_config
+from ramtorch.utils import prepare_dirs, save_config
+from ramtorch.data_loader import get_test_loader, get_train_valid_loader
 
 
 def main(config):

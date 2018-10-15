@@ -3,7 +3,6 @@ import torch.nn.functional as F
 
 from torch.autograd import Variable
 import torch.optim as optim
-from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 import os
 import time
@@ -11,8 +10,8 @@ import shutil
 import pickle
 
 from tqdm import tqdm
-from utils import AverageMeter
-from model import RecurrentAttention
+from ramtorch.utils import AverageMeter
+from ramtorch.model import RecurrentAttention
 from tensorboard_logger import configure, log_value
 
 

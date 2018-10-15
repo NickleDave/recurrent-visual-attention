@@ -1,13 +1,11 @@
-import math
-
 import torch
 import torch.nn as nn
 
 from torch.distributions import Normal
 
-from modules import baseline_network
-from modules import glimpse_network, core_network
-from modules import action_network, location_network
+from ramtorch.modules import baseline_network
+from ramtorch.modules import glimpse_network, core_network
+from ramtorch.modules import action_network, location_network
 
 
 class RecurrentAttention(nn.Module):
